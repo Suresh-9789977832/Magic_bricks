@@ -19,7 +19,7 @@ export default {
         "3lg": "1025px",
         "3sm": "426px",
         "3ssm": "376px",
-        "3sssm":"321px",
+        "3sssm":"321px"
       }
     },
   },

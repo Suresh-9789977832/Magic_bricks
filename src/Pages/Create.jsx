@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react'
 import { env } from '../env';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';

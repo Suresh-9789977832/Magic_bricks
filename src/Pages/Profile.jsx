@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { Usercontext } from '../Context/Context';
+import { Usercontext } from '../Context/Context'
 import axios from 'axios'
 import { env } from '../env'
 import toast from 'react-hot-toast'

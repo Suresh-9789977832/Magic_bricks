@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import { IoLocation } from "react-icons/io5";
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 
 

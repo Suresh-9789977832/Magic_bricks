@@ -39,7 +39,7 @@ a:link{
 .create_flex{
     display: flex;
     width: 100%;
-    margin-top:1rem
+    margin-top:1rem;
 }
 .create_row{
     display: flex;
