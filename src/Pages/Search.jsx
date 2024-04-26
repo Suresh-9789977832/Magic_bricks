@@ -4,7 +4,7 @@ import Cards from '../Components/Cards'
 import axios from 'axios'
 import { env } from '../env'
 import Searchcards from '../Components/Searchcards'
-import { Usercontext } from '../Context/Context'
+import { Usercontext } from '../Context/Context';
 
 function Search() {
    

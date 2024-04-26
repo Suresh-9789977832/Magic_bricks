@@ -141,7 +141,7 @@ function Profile() {
                 usersposts && usersposts?.map((e) => {
                   return  <div className='flex justify-between mt-3 border border-gray-300 p-3 max-3sm:text-sm'>
                   <div className='flex items-center gap-2'>
-                      <span><img src={'http://localhost:3000/'+e.imgurls[0]} className='w-20'/></span>
+                      <span><img src={'https://magic-bricks.onrender.com/'+e.imgurls[0]} className='w-20'/></span>
                       <span className='text-sm'>{e.name}</span>
                   </div>
                  

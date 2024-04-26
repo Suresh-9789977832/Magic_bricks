@@ -18,7 +18,7 @@ function Cards({ final }) {
 
     return <>
         <Card style={{ width: '350px', height: '450px' }} className=' shadow-lg' onClick={()=>navigatetolist(final._id)}>         
-            <Card.Img variant="top" src={'http://localhost:3000/'+final.imgurls[0]} className="img"/>
+            <Card.Img variant="top" src={'https://magic-bricks.onrender.com/'+final.imgurls[0]} className="img"/>
                 <p className=" text-blue-600 font-semibold mt-2">{final.name}</p>
                 <span className='flex items-center mb-2'>
                     <span className='text-green-600'><IoLocation/></span>&nbsp;

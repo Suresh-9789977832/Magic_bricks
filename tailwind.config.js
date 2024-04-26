@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         darkblue: "rgb(51,65,85)",
-        basered:"rgb(187,28,28)",
+        basered:"rgb(187,28,28)"
       },
       height: {
         600: "600px",

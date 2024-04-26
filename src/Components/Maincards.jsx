@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import axios from 'axios'
 import { env } from '../env'
-import { Link } from 'react-router-dom'
 
 
 function Maincards({ title, des }) {

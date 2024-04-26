@@ -217,7 +217,7 @@ function Editpost() {
         {error && <p className='text-red-600'>{error}</p>}
         { formdata?.imgurls?.length > 0 && formdata?.imgurls?.map((e, i) => {
              return   <div className='flex justify-between  border-[1px] border-gray-300 w-80 p-2 max-3ssm:w-80 max-3sssm:w-72' key={i}>
-            <img src={'http://localhost:3000/'+e} className='w-18 h-14  object-cover'/>
+            <img src={'https://magic-bricks.onrender.com/'+e} className='w-18 h-14  object-cover'/>
             <button className=" text-red-700" onClick={()=>deleteimg(e)}>DELETE</button>
         </div>
         })}

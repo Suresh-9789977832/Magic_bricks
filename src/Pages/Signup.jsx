@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { env } from '../env'
 import toast from 'react-hot-toast'
 import Spinner from '../Components/Spinner'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function Signup() {

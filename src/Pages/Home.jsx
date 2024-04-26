@@ -2,7 +2,7 @@ import { Carousel } from 'bootstrap'
 import React from 'react'
 import DarkVariantExample from '../Components/Carosel'
 import Maincards from '../Components/Maincards'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function Home() {
   return <>

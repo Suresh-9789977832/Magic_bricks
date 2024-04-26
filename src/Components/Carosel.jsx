@@ -10,7 +10,7 @@ function DarkVariantExample({ img }) {
           return   <Carousel.Item>
           <img
             className="d-block w-100 h-300  3md:h-600 object-cover"
-            src={'http://localhost:3000/'+e}
+            src={'https://magic-bricks.onrender.com/'+e}
           />
         </Carousel.Item>
         })
