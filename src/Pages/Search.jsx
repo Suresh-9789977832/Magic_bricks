@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Cards from '../Components/Cards'
 import axios from 'axios'
 import { env } from '../env'
 import Searchcards from '../Components/Searchcards'

@@ -7,7 +7,7 @@ import { FaParking } from "react-icons/fa";
 import { useParams } from 'react-router-dom';
 import { MdChair } from "react-icons/md";
 import { Usercontext } from '../Context/Context';
-import axios from 'axios';
+import axios from 'axios'
 import { env } from '../env';
 
 
