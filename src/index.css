@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: rgb(241,245,241) !important;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.img{
+    object-fit:cover !important;
+    width: 500px !important;
+    height: 250px !important;
+    border-radius: 10px !important;
+    margin-top:8px;
+    margin-bottom: 2px;
+    transition:ease-out 70ms;
+    padding:5px;
+}
+.img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.checkbox{
+    width:18px;
+    height: 18px;
+}
+.create_checkbox{
+    width:20px;
+    height: 22px;
+}
+.box{
+    height: 30rem !important;
+    width: 23rem !important;
+}
+.create_flex{
+    display: flex;
+    width: 100%;
+    margin-top:1rem;
+}
+.create_row{
+    display: flex;
+    gap: 0.75rem;
+    margin-left: 12px;
+}
+@media (max-width:426px) {
+    .create_row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:322px) {
+    .box{
+        height: 30rem !important;
+        width: 19rem !important;
+    }
+}
+
+@media (max-width:1025px) {
+    .create_flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:1rem;
+        align-items: center;
+    }
+}
+@media (max-width:426px) {
+    .create_flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:1rem;
+        align-items: normal;
+        padding: 1rem;
+    }
+}
