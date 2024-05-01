@@ -23,7 +23,7 @@ function Searchcards({ final, width, height }) {
 
     return <>
         <> <Card className=' shadow-lg box max-3ssm:smallbox' onClick={()=>{navigatetolist(final._id)}} >           
-                      <Card.Img variant="top" src={'https://magic-bricks.onrender.com/'+final.imgurls[0]} className="img"/>
+                      <Card.Img variant="top" src={'https://magic-bricks-hk8n.onrender.com/'+final.imgurls[0]} className="img"/>
               
                 <p className=" text-blue-600 font-semibold mt-2">{final.name}</p>
                 <span className='flex items-center mb-2'>

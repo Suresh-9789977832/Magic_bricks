@@ -10,7 +10,7 @@ import { Toaster } from 'react-hot-toast'
 import Search from './Pages/Search'
 import Listingpage from './Pages/Listingpage'
 import Create from './Pages/Create'
-import Editpost from './Pages/Editpost'
+import Editpost from './Pages/Editpost';
 import { Usercontext } from './Context/Context'
 
 function App() {
