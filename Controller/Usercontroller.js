@@ -4,7 +4,6 @@ import { comparepassword, createtoken } from "../Routes/Helper/helper.js";
 import extpath from "path"
 import fs from "fs"
 import jwt from 'jsonwebtoken'
-import postmodal from "../model/Postmodal.js";
 
 export const signup = async(req,res) => {
     const { username, email, password } = req.body;

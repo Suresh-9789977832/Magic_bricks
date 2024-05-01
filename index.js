@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 import express from 'express'
 import mongoose from 'mongoose'
-import userRouter from './Routes/UserRouter.js'
+import userRouter from './Routes/UserRouter.js';
 import { fileURLToPath } from 'url';
 import path from 'path';
 import postrouter from './Routes/PostRouter.js'

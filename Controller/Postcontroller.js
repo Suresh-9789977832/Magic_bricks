@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken"
-import mongoose from "mongoose"
-import postmodal from "../model/Postmodal.js"
+import postmodal from "../model/Postmodal.js";
 
 
 

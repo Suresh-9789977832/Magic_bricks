@@ -1,4 +1,4 @@
-import express from 'express'
+import express from 'express';
 import {  changeuser, loginuser, refreshuser, signup, uploadfile } from '../Controller/Usercontroller.js'
 import multer from 'multer'
 
