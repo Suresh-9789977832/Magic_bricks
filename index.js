@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express()   
     
 app.use(cors({
-    origin: "http://localhost:5000",
+    origin: "https://magic-brick-frontend.onrender.com",
     credentials:true
 }))
 
